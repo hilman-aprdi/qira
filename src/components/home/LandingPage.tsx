@@ -38,7 +38,7 @@ function PhonePreview() {
 
 export function LandingPage() {
   return (
-    <section className="relative isolate flex min-h-[calc(100svh-5rem)] items-center overflow-hidden px-5 py-10 sm:px-8 sm:py-14 lg:min-h-[calc(100svh-5rem)]">
+    <section className="landing-page relative isolate flex min-h-[calc(100svh-5rem)] items-center overflow-hidden px-5 py-10 sm:px-8 sm:py-14 lg:min-h-[calc(100svh-5rem)]">
       <div className="container relative z-10 grid w-full items-center gap-10 lg:grid-cols-[minmax(0,1fr)_360px] lg:gap-24">
         <div className="text-left">
           <p className="hidden text-sm font-semibold uppercase tracking-[0.24em] text-[var(--blue)] lg:block">Welcome to Qira</p>

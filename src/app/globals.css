@@ -28,3 +28,4 @@ body.qira-reading-mode .reader-audio-card { margin-top:0; }
 @keyframes sparkle-enter { 0% { opacity:0; transform:scale(.35) rotate(-20deg); } 65% { opacity:1; transform:scale(1.12) rotate(8deg); } 100% { opacity:var(--sparkle-opacity,.8); transform:scale(1) rotate(0); } }
 @media (prefers-reduced-motion: reduce) { .hero-cloud-enter, .hero-sparkle-enter { animation:none; } }
 @media (min-width:768px) { .container { width:min(100% - 64px,1160px); } .reader-checkpoint-row { top:6rem; } }
+@media (max-width:767px) { body:has(.landing-page) main { padding-bottom:0; } body:has(.landing-page) .site-mobile-nav { display:none; } }
