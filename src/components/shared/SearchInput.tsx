@@ -1,0 +1,3 @@
+"use client";
+import { Search } from "lucide-react";
+export function SearchInput({ value, onChange }: { value: string; onChange: (value: string) => void }) { return <label className="flex items-center gap-3 rounded-2xl border border-[var(--border)] bg-white px-4 py-3 text-[var(--muted)] shadow-sm"><Search size={19} aria-hidden="true" /><span className="sr-only">Cari surah</span><input type="search" value={value} onChange={(event) => onChange(event.target.value)} placeholder="Cari surah..." className="w-full bg-transparent text-sm text-[var(--ink)] outline-none placeholder:text-[var(--muted)]" /></label>; }

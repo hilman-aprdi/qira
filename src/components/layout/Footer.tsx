@@ -1,0 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export function Footer() {
+  return <footer className="border-t border-[var(--border)] bg-white pb-28 pt-8 md:pb-10 md:pt-10"><div className="container grid gap-7 md:grid-cols-[1fr_auto] md:items-start md:gap-16"><div><Link href="/" aria-label="Qira home"><Image src="/assets/brand/qira-logo.png" alt="Qira" width={131} height={72} className="h-9 w-auto object-contain" /></Link><p className="mt-3 text-sm font-semibold text-[var(--ink)]">A simple Quran reading experience.</p><p className="mt-2 max-w-sm text-sm leading-6 text-[var(--muted)]">Membaca, mendengarkan, dan memahami Al-Qur&apos;an dengan pengalaman yang sederhana dan tenang.</p></div><nav aria-label="Tautan informasi" className="grid gap-3 text-sm font-semibold text-[var(--muted)]"><Link href="/about" className="transition-colors hover:text-[var(--blue)]">Tentang Qira</Link><Link href="/privacy-policy" className="transition-colors hover:text-[var(--blue)]">Kebijakan Privasi</Link></nav></div><div className="container mt-7 border-t border-[var(--border)] pt-5 text-xs leading-6 text-[var(--muted)]"><p>Sumber Al-Qur&apos;an, terjemahan, dan tafsir: Kementerian Agama RI.</p><p>Sumber jadwal shalat: Bimas Islam Kementerian Agama RI.</p><p className="mt-2">© 2026 Qira</p></div></footer>;
+}

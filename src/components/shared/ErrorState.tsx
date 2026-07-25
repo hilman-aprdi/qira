@@ -1,0 +1,2 @@
+"use client";
+export function ErrorState({ message = "Data belum dapat dimuat.", retry }: { message?: string; retry?: () => void }) { return <div className="card mx-auto max-w-xl p-8 text-center"><h2 className="text-xl font-bold">Ada kendala sebentar</h2><p className="mt-2 text-[var(--muted)]">{message} Periksa koneksi internet lalu coba lagi.</p>{retry && <button onClick={retry} className="mt-5 rounded-full bg-[var(--blue)] px-5 py-3 font-semibold text-white">Coba lagi</button>}</div>; }

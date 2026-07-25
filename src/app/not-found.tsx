@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound(){return <div className="container py-20 text-center"><h1 className="text-3xl font-bold">Halaman tidak ditemukan</h1><p className="mt-3 text-[var(--muted)]">Surah atau halaman yang kamu cari tidak tersedia.</p><Link href="/" className="mt-6 inline-block rounded-full bg-[var(--blue)] px-5 py-3 font-semibold text-white">Kembali ke beranda</Link></div>}
