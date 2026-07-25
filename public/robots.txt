@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://qira.app/sitemap.xml
+Sitemap: https://qiraweb.vercel.app/sitemap.xml
