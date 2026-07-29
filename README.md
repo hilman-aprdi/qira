@@ -90,28 +90,6 @@ npm run start
 
 Catatan: `next lint` masih tersedia pada project ini, tetapi Next.js memberikan peringatan bahwa command tersebut akan deprecated pada Next.js 16.
 
-## Deployment ke Vercel
-
-1. Push repository ke GitHub.
-2. Import repository tersebut ke Vercel.
-3. Pilih framework **Next.js**.
-4. Tambahkan environment variable berikut pada environment Production:
-
-   ```env
-   NEXT_PUBLIC_SITE_URL=https://qiraweb.vercel.app
-   ```
-
-5. Jalankan deployment.
-
-Setelah deployment, periksa beberapa halaman berikut:
-
-- `https://qiraweb.vercel.app`
-- `https://qiraweb.vercel.app/quran`
-- `https://qiraweb.vercel.app/quran/1`
-- `https://qiraweb.vercel.app/tafsir/1`
-- `https://qiraweb.vercel.app/sitemap.xml`
-- `https://qiraweb.vercel.app/robots.txt`
-
 ## Penyimpanan Lokal
 
 Qira tidak menggunakan database atau authentication. Preferensi ringan disimpan di browser pengguna, termasuk:
